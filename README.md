@@ -1,73 +1,32 @@
-# Welcome to your Lovable project
+# ResumAI - AI-Powered Resume Builder
 
-## Project info
+ResumAI is a web application designed to help users create professional resumes easily and efficiently. It provides an interactive interface to build, edit, and organize different sections of a resume with live preview functionality. The application also integrates with OpenAI to enhance the resume-building experience.
 
-**URL**: https://lovable.dev/projects/20082225-9bfd-400f-8976-b05aeac776bb
+## Features
 
-## How can I edit this code?
+- Create and edit multiple resume sections including Contact, Summary, Experience, Education, and Skills.
+- Organize and reorder resume sections to customize the resume layout.
+- Live preview of the resume as you build it.
+- Rename your resume with ease.
+- Toggle between light and dark themes for comfortable editing.
+- Integration with OpenAI API for AI-powered enhancements (requires API key).
 
-There are several ways of editing your application.
+## How to Use
 
-**Use Lovable**
+1. Start by entering your resume name.
+2. Fill out the different sections of your resume using the form on the left.
+3. Use the organize tab to reorder or remove sections as needed.
+4. Preview your resume live on the right side of the screen.
+5. Toggle the theme using the button on the top right.
+6. To enable AI features, provide your OpenAI API key in the settings.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/20082225-9bfd-400f-8976-b05aeac776bb) and start prompting.
+## Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+- React with TypeScript
+- Tailwind CSS for styling
+- OpenAI API integration
+- Zustand for state management
 
-**Use your preferred IDE**
+## License
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/20082225-9bfd-400f-8976-b05aeac776bb) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is licensed under the MIT License.
